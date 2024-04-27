@@ -8,6 +8,27 @@ class LoginForm extends Component {
     password: '',
   }
 
+  onSubmitSuccess = () => {
+    const {history} = this.props
+    history.replace('/')
+  }
+
+  submitForm = async event => {
+    event.preventDefault()
+    const {username, password} = this.state
+    const loginDetails = {username, password}
+    const url = 'https://apis.ccbp.in/login'
+    const options = {
+      method: 'POST',
+      body: JSON.stringify(loginDetails),
+    }
+    const response = await fetch(url, options)
+    const data = await response.json()
+    if (response.ok === true) {
+      this.onSubmitSuccess()
+    }
+  }
+
   onChangeUsername = event => {
     this.setState({username: event.target.value})
   }
