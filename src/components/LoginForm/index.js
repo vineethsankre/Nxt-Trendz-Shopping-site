@@ -6,6 +6,7 @@ class LoginForm extends Component {
   state = {
     username: '',
     password: '',
+    errorMsg: '',
   }
 
   onSubmitSuccess = () => {
@@ -13,19 +14,40 @@ class LoginForm extends Component {
     history.replace('/')
   }
 
+  onSubmitFailure = error => {
+    this.setState({errorMsg: error})
+  }
+
   submitForm = async event => {
     event.preventDefault()
     const {username, password} = this.state
-    const loginDetails = {username, password}
-    const url = 'https://apis.ccbp.in/login'
-    const options = {
-      method: 'POST',
-      body: JSON.stringify(loginDetails),
+    if (username !== '' && password === '') {
+      this.setState({errorMsg: '*Password field must not be empty.'})
     }
-    const response = await fetch(url, options)
-    const data = await response.json()
-    if (response.ok === true) {
-      this.onSubmitSuccess()
+    if (username === '' && password !== '') {
+      this.setState({errorMsg: '*Username field must not be empty.'})
+    }
+    if (username === '' && password === '') {
+      this.setState({
+        errorMsg: '*Username and Password fields must not be empty.',
+      })
+    }
+    if (username !== '' && password !== '') {
+      const loginDetails = {username, password}
+      const url = 'https://apis.ccbp.in/login'
+      const options = {
+        method: 'POST',
+        body: JSON.stringify(loginDetails),
+      }
+      const response = await fetch(url, options)
+      const data = await response.json()
+      if (response.ok === true) {
+        this.onSubmitSuccess()
+      } else {
+        this.onSubmitFailure(
+          data.error_msg || "*Username and Password didn't match",
+        )
+      }
     }
   }
 
@@ -50,6 +72,7 @@ class LoginForm extends Component {
           className="password-input-filed"
           value={password}
           onChange={this.onChangePassword}
+          placeholder="Password"
         />
       </>
     )
@@ -68,12 +91,14 @@ class LoginForm extends Component {
           className="username-input-filed"
           value={username}
           onChange={this.onChangeUsername}
+          placeholder="Username"
         />
       </>
     )
   }
 
   render() {
+    const {errorMsg} = this.state
     return (
       <div className="login-form-container">
         <img
@@ -97,6 +122,7 @@ class LoginForm extends Component {
           <button type="submit" className="login-button">
             Login
           </button>
+          {errorMsg && <p className="error-message">{errorMsg}</p>}
         </form>
       </div>
     )
