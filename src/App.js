@@ -1,3 +1,6 @@
-const App = () => <h1>Remove this heading and write your code here</h1>
+
+const App = () => (
+
+)
 
 export default App
