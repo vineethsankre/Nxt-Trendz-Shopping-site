@@ -1,6 +1,7 @@
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
 import Home from './components/Home'
+import Header from './components/Header'
 import NotFound from './components/NotFound'
 
 import './App.css'

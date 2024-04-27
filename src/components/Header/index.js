@@ -9,15 +9,9 @@ const Header = () => (
         alt="website logo"
       />
       <ul className="nav-menu">
-        <li>
-            Home
-        </li>
-        <li>
-            Products
-        </li>
-        <li>
-            Cart
-        </li>
+        <li className="nav-link">Home</li>
+        <li className="nav-link">Products</li>
+        <li className="nav-link">Cart</li>
       </ul>
       <button type="button" className="logout-desktop-btn">
         Logout
