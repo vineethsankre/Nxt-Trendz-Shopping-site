@@ -175,7 +175,6 @@ Use these files to complete the implementation:
 <summary>Colors</summary>
 
 <br/>
-<div style="background-color: #1e293b; width: 150px; padding: 10px; color: white">Hex: #1e293b</div>
 
 </details>
 
