@@ -98,7 +98,6 @@ Use these files to complete the implementation:
 - `src/components/LoginForm/index.js`
 - `src/components/LoginForm/index.css`
 - `src/components/Home/index.js`
-- `src/components/Home/index.css`
 </details>
 
 ### Quick Tips
