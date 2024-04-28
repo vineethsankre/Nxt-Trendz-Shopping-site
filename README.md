@@ -100,7 +100,6 @@ Use these files to complete the implementation:
 - `src/components/Home/index.js`
 - `src/components/Home/index.css`
 - `src/components/Header/index.js`
-- `src/components/Header/index.css`
 </details>
 
 ### Quick Tips
