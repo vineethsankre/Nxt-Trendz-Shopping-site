@@ -88,16 +88,6 @@ Returns a response based on the credentials provided
 <br/>
 </details>
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
-
-Use these files to complete the implementation:
-
-- `src/App.js`
-- `src/components/LoginForm/index.js`
-</details>
-
 ### Quick Tips
 
 <details>
