@@ -184,7 +184,6 @@ Use these files to complete the implementation:
 <div style="background-color: #64748b; width: 150px; padding: 10px; color: white">Hex: #64748b</div>
 <div style="background-color: #0b69ff; width: 150px; padding: 10px; color: white">Hex: #0b69ff</div>
 <div style="background-color: #ff0b37; width: 150px; padding: 10px; color: white">Hex: #ff0b37</div>
-<div style="background-color: #0967d2; width: 150px; padding: 10px; color: white">Hex: #0967d2</div>
 
 </details>
 
