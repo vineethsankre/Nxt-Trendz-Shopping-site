@@ -75,18 +75,6 @@ Returns a response based on the credentials provided
 
 </details>
 
-<details>
-<summary>Components Structure</summary>
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authentication-login-component-structure-breakdown.png" alt="nxt trendz authentication login component structure breakdown" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authentication-home-component-structure-breakdown.png" alt="nxt trendz authentication home component structure breakdown" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
-</details>
 
 ### Quick Tips
 
