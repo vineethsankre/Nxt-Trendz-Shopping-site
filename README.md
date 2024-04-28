@@ -172,9 +172,6 @@ Use these files to complete the implementation:
 </details>
 
 <details>
-<summary>Colors</summary>
-
-
 </details>
 
 
