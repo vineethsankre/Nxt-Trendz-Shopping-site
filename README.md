@@ -189,8 +189,6 @@ Use these files to complete the implementation:
 </details>
 
 <details>
-<summary>Font-families</summary>
-
 </details>
 
 
