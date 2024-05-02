@@ -21,9 +21,11 @@ class LoginForm extends Component {
   }
 
   onSubmitSuccess = jwtToken => {
-    Cookies.set('jwt_token', jwtToken, {expires: 30})
     const {history} = this.props
 
+    Cookies.set('jwt_token', jwtToken, {
+      expires: 30,
+    })
     history.replace('/')
   }
 
@@ -42,6 +44,7 @@ class LoginForm extends Component {
     }
     const response = await fetch(url, options)
     const data = await response.json()
+
     if (response.ok === true) {
       this.onSubmitSuccess(data.jwt_token)
     } else {
@@ -90,11 +93,13 @@ class LoginForm extends Component {
   }
 
   render() {
+    const {showSubmitError, errorMsg} = this.state
     const jwtToken = Cookies.get('jwt_token')
+
     if (jwtToken !== undefined) {
       return <Redirect to="/" />
     }
-    const {showSubmitError, errorMsg} = this.state
+
     return (
       <div className="login-form-container">
         <img
