@@ -36,8 +36,7 @@ In this project, let's build **Nxt Trendz** app with authentication by applying 
 The app must have the following functionalities
 
 - When invalid credentials are provided in the login form and **Login** button is clicked, then the respective error message from the response should be displayed
-- When the **username** and **password** are provided correctly and **Login** button is clicked, then the page should navigate to Home Route
-
+- When the **username** and **password** are provided co
 </details>
 
 <details>
