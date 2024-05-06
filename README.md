@@ -8,7 +8,6 @@ In this project, let's build **Nxt Trendz** app with authentication by applying 
 </div>
 <br/>
 
-### Design Files
 
 
 ### Set Up Instructions
