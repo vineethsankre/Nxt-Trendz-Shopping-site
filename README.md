@@ -78,8 +78,6 @@ Returns a response based on the credentials provided
     box-shadow: 0px 4px 16px 0px #bfbfbf;
   ```
 
-  <br/>
-
 
 </details>
 
