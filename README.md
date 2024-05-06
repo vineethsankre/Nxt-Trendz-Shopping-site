@@ -81,9 +81,6 @@ Returns a response based on the credentials provided
   <br/>
    <img src="https://assets.ccbp.in/frontend/content/react-js/box-shadow-img.png" alt="box shadow" style="width:200px" />
 
-- You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
-
-
 
 </details>
 
