@@ -13,8 +13,6 @@ In this project, let's build **Nxt Trendz** app with authentication by applying 
 <details>
 <summary>Click to view</summary>
 
-- [Extra Small (Size < 576px), Small (Size >= 576px), and Medium (Size >= 768px)](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authentication-sm-outputs.p
-- [Large (Size >= 992px) and Extra Large (Size >= 1200px) - Login](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authentication-lg-
 
 </details>
 
