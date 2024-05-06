@@ -75,7 +75,6 @@ Returns a response based on the credentials provided
 - You can use the `box-shadow` CSS property to apply the box-shadow effect to containers
 
   ```
-    box-shadow: 0px 4px 16px 0px #bfbfbf;
   ```
 
 
