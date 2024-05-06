@@ -72,9 +72,6 @@ Returns a response based on the credentials provided
 <summary>Click to view</summary>
 <br>
 
-- You can use the `box-shadow` CSS property to apply the box-shadow effect to containers
-
-
 </details>
 
 ### Important Note
