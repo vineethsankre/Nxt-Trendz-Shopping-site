@@ -70,7 +70,6 @@ Returns a response based on the credentials provided
 
 <details>
 <summary>Click to view</summary>
-<br>
 
 </details>
 
