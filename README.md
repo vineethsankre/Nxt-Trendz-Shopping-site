@@ -83,10 +83,6 @@ Returns a response based on the credentials provided
 
 - You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
 
-  ```
-    cursor: pointer;
-  ```
-
   <br/>
 
 
