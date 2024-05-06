@@ -88,8 +88,6 @@ Returns a response based on the credentials provided
   ```
 
   <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
-
 
 
 </details>
