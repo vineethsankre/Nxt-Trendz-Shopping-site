@@ -79,7 +79,6 @@ Returns a response based on the credentials provided
   ```
 
   <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/box-shadow-img.png" alt="box shadow" style="width:200px" />
 
 
 </details>
