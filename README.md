@@ -69,7 +69,7 @@ Returns a response based on the credentials provided
 ### Quick Tips
 
 <details>
-<summary>Click</summary>
+<summary>Clic</summary>
 
 </details>
 
