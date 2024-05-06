@@ -74,9 +74,6 @@ Returns a response based on the credentials provided
 
 - You can use the `box-shadow` CSS property to apply the box-shadow effect to containers
 
-  ```
-  ```
-
 
 </details>
 
