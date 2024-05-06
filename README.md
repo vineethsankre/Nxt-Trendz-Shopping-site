@@ -90,7 +90,7 @@ Returns a response based on the credentials provided
   <br/>
    <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
 
-- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
+d
 
 
 
