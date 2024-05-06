@@ -11,7 +11,6 @@ In this project, let's build **Nxt Trendz** app with authentication by applying 
 ### Design Files
 
 <details>
-<summary>Click to view</summary>
 
 
 </details>
