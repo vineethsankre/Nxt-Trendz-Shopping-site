@@ -65,14 +65,6 @@ Returns a response based on the credentials provided
 
 </details>
 
-
-### Quick Tips
-
-<details>
-<summary>Cli</summary>
-
-</details>
-
 ### Important Note
 
 <details>
