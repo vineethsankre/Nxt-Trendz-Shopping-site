@@ -1,4 +1,4 @@
-In this project, let's build **Nxt Trendz** app with authentication by applying the concepts  
+In this project, let's build **Nxt Trendz** app with authentication by applying the 
 ### Refer to the image below:
 
 <br/>
