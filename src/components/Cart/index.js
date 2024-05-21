@@ -1,4 +1,5 @@
 import Header from '../Header'
+import CartListView from '../CartListView'
 
 import './index.css'
 
@@ -6,13 +7,12 @@ const Cart = () => (
   <>
     <Header />
     <div className="cart-container">
-      <img
-        src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-img.png"
-        alt="cart"
-        className="cart-img"
-      />
+      <div className="cart-content-container">
+        <h1 className="cart-heading">My Cart</h1>
+        <CartListView />
+      </div>
     </div>
   </>
 )
-
 export default Cart
+
